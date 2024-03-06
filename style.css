@@ -70,7 +70,6 @@ nav {
 .dropdown-content a:hover {
     transform: translateX(0.5%);
     border-style: solid;
-    border-color: ;
 }
 
 .dropdown .dropbtn a {
