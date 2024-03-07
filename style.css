@@ -193,3 +193,68 @@ body {
 .Endusers .info {
     margin-right: 50px;
 }
+
+.requirements {
+    margin-top: 5%;
+    color: white;
+    margin-bottom: 5%;
+    margin-left: 20%;
+}
+.requirements li {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.requirementsTable {
+    border-collapse: collapse;
+    color: white;
+    width: 80%;
+    border-style: solid;
+    border-color: black;
+}
+
+.requirementsTable td, .requirements th {
+    border-style: solid;
+    border-color: black;
+    padding: 8px;
+}
+
+.requirementsTable tr:hover {
+    background-color: rgb(75, 75, 75);
+}
+
+.requirementsTable th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background: white;
+    color: black;
+    border-style: solid;
+}
+
+.requirementsTable a {
+    color: white;
+    text-decoration: none;
+}
+
+.requirementsTable a:hover {
+    text-decoration: underline;
+}
+
+.Implications {
+    margin-top: 5%;
+    color: white;
+    margin-left: 30%;
+    margin-bottom: 5%;
+}
+
+.Implications h2 {
+    margin-right: 35%;
+    font-size: 24px;
+    text-align: center;
+}
+
+.Implications div {
+    padding-top: 120px;
+    margin-bottom: 20px;
+}
