@@ -174,24 +174,14 @@ body {
         transform: translateY(-15px);
     }
 }
- 
 
 .OverviewCon {
     display: flex;
-    justify-content: center;
+    margin-left: 47.5%;
 }
 
-.OverviewCon .info {
-    margin-right: 50px;
-}
-
-.Endusers {
-    display: flex;
-    justify-content: center;
-}
-
-.Endusers .info {
-    margin-right: 50px;
+.EndUsers {
+    margin-left: 47.5%;
 }
 
 .requirements {
