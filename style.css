@@ -180,6 +180,10 @@ body {
     margin-left: 47.5%;
 }
 
+.OverviewCon .image img {
+    width: 40%
+}
+
 .EndUsers {
     margin-left: 47.5%;
 }
