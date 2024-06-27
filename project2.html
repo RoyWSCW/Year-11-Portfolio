@@ -29,7 +29,7 @@
             <p>Sandwich Roulette is a turn based <br>luck and strategy game<br> inspired by Russian Roulette,<br> players take turns eating sandwiches<br> some of which are poisoned.</p>
         </div>
         <div class="image">
-            <img src="" alt="Project Image">
+            <img src="cover.png" alt="Project Image">
         </div>
     </div>
     <br><br><br><br><br><br><br><br><hr>
@@ -95,6 +95,45 @@
     <div class="Development" id="Development">
         <div>
             <h1>1. Task One</h1>
+            <h2>Random Sandwich System</h2>
+            <div class="Box">
+                <div class="text">
+                    <h3>Random Sandwich System</h3>
+                    <p>Under the core i defined the getsandwiches function which is the random sandwich system, it makes an empty list of sandwiches.<br> It is then filled with zeros and ones to differentiate between poisoned and normal sandwiches,<br> the amount of sandwiches and poisoned sandwiches will always be the same as the round number<br> so for example if its the second round there will 100% be two normal and two poisoned sandwiches in the list.</p>
+                </div>
+                <div class="image">
+                    <img src="rand1.PNG" alt="Development">
+                </div>
+            </div>
+            <div class="Box">
+                <div class="text">
+                    <p>Having an entirely preset list of sandwiches would eventually get boring and repetitive so i decided to include random sandwich generation.<br> for example if it is round two the randint code will generate two random numbers between 0 or 1 ensuring the list can be different.<br> to finish off the function the list is shuffled with random.shuffle and finally the resulting variable is returned.</p>
+                </div>
+                <div class="image">
+                    <img src="rand2.PNG" alt="Development">
+                </div>
+            </div>
+            <h2>Testing</h2>
+            <div class="Box">
+                <div class="text">
+                    <p>The results were as intended, there will only be three rounds in game however i ran the test with five.<br> This is to check the minimum round to normal/poisoned sandwich ratio was true, no errors were found in the test.</p>
+                </div>
+                <div class="image">
+                    <img src="getsandwichtest.PNG" alt="Development">
+                </div>
+            </div>
+            <h2>Feedback</h2>
+            <div class="Feedback">
+                <h3>Do you think the layout is easy to follow/ well organised?</h3>
+                <p>The output is well organized because of the lines inbetween everything, the lines look good and allow  you to clearly see each list for each round.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <h3>What don't you like about the layout?</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            </div>
+            <br><br><br><br><br><br><br><br><hr>
+            <br><br><br><br><br><br><br><br>
+            <h1>2. Task two</h1>
             <h2>Random Sandwich System</h2>
             <div class="Box">
                 <div class="text">
